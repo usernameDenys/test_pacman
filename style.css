@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap");
 
 * {
   margin: 0;
@@ -9,7 +8,38 @@
 
 .body {
   margin: 0 auto;
-  
+}
+
+header .menu-container {
+  background-color: #f2682a;
+}
+
+header .menu-container div {
+  max-width: 1200px;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 16px;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header nav a {
+  padding: 41px 16px;
+  color: white;
+  font-family: "Rubik Moonrocks", sans-serif;
+  letter-spacing: 1px;
+  font-size: 30px;
+  display: block;
+  text-decoration: none;
+}
+
+header img {
+  width: 100%;
 }
 
 h1 {
@@ -19,50 +49,42 @@ h1 {
   color: #f2682a;
   margin-top: 100px;
 }
-header .menu-container{
-
+header .menu-container {
   background-color: #f2682a;
 }
 
-header .menu-container div{
+header .menu-container div {
   max-width: 1200px;
   margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-left: 16px;
-}   
-
-header nav ul{
-  display: flex;
-  list-style: none;
-
 }
 
-header nav a{
-  padding: 0px 16px;
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header nav a {
+  padding: 16px;
   color: white;
   display: block;
   text-decoration: none;
-
-
 }
-header div img{
-margin-top: 10px;
-margin-bottom: 10px;
+header div img {
+  margin-top: 10px;
+  margin-bottom: 10px;
   width: 75px;
 }
-
-
-
-
 
 .container {
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #fff;
-  height: 50vh;
+  height: 45vh;
   width: 1200px;
   display: flex;
   align-items: center;
@@ -183,4 +205,25 @@ margin-bottom: 10px;
   100% {
     transform: rotateZ(3deg);
   }
+}
+
+.footer {
+  text-align: center;
+  background-color: #f2682a;
+  
+}
+
+
+.footer p a {
+ line-height: 60px;
+ padding: 20px;
+ text-decoration: none;
+ font-size: 1.2rem;
+ color: #333;
+ font-weight: 700;
+}
+
+.footer p a:hover {
+  color: #fff;
+  text-decoration: underline;
 }

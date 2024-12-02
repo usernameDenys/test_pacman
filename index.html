@@ -1,34 +1,80 @@
 <!DOCTYPE html>
 <html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/icon-fox.png">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="img/icon-fox.png" />
+    <link rel="stylesheet" href="style.css" />
     <title>Pacman</title>
-</head>
-
-<body>
-    <h1> Pacman </h1>
-    <div class="container">
-        <div class="path"></div>
-        <div class="sprite">
-            <svg width="206" height="191" viewBox="0 0 206 191" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g id="fox">
-                    <path id="tail"
-                        d="M76.8313 140.272C88.9228 166.016 120.212 154.817 93.0211 167.588C65.83 180.359 33.9851 169.842 21.8936 144.098C9.8021 118.353 22.0428 87.13 49.2339 74.3591C76.425 61.5882 64.7398 114.527 76.8313 140.272Z"
-                        fill="#F2682A" />
-                    <path id="left-ear" d="M156.328 0L156.712 52.9619L158.672 99.761L109 61.5932L156.328 0Z"
-                        fill="#F2682A" />
-                    <path id="right-ear"
-                        d="M177.327 12.2217L178.602 35.9L180.453 56.7894L157.443 40.7541L177.327 12.2217Z"
-                        fill="#F2682A" />
-                </g>
-            </svg>
-            <div class="mouth"></div>
-        </div>
+  </head>
+  <header>
+    <div class="menu-container">
+      <div>
+        <img src="img/pac-man.png" alt="logo" />
+        <nav>
+          <ul>
+            <li>
+              <a href="https://fr.wikipedia.org/wiki/Pac-Man" target="_blank"
+                >Pacman Wiki</a
+              >
+            </li>
+            <li>
+              <a href="https://www.pacman.com/en/" target="_blank"
+                >Site officielle</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.google.fr/logos/2010/pacman10-i.html"
+                target="_blank"
+                >Jouer en ligne</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
     </div>
-</body>
+  </header>
 
+  <body>
+    <h1>Pacman</h1>
+    <div class="container">
+      <div class="path"></div>
+      <div class="sprite">
+        <svg
+          width="206"
+          height="191"
+          viewBox="0 0 206 191"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <g id="fox">
+            <path
+              id="tail"
+              d="M76.8313 140.272C88.9228 166.016 120.212 154.817 93.0211 167.588C65.83 180.359 33.9851 169.842 21.8936 144.098C9.8021 118.353 22.0428 87.13 49.2339 74.3591C76.425 61.5882 64.7398 114.527 76.8313 140.272Z"
+              fill="#F2682A" />
+            <path
+              id="left-ear"
+              d="M156.328 0L156.712 52.9619L158.672 99.761L109 61.5932L156.328 0Z"
+              fill="#F2682A" />
+            <path
+              id="right-ear"
+              d="M177.327 12.2217L178.602 35.9L180.453 56.7894L157.443 40.7541L177.327 12.2217Z"
+              fill="#F2682A" />
+          </g>
+        </svg>
+        <div class="mouth"></div>
+      </div>
+    </div>
+  </body>
+  <footer class="footer">
+    <p>
+      2024 ©
+      <a href="https://github.com/usernameDenys" target="_blank"
+        >Denys Holenko</a
+      ><a href="https://github.com/malek198383" target="_blank">Malek Dafri</a
+      ><a href="https://github.com/jolegrand10" target="_blank"
+        >Georges Georgoulis</a
+      >
+    </p>
+  </footer>
 </html>
