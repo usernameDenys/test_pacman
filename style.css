@@ -19,6 +19,43 @@ h1 {
   color: #f2682a;
   margin-top: 100px;
 }
+header .menu-container{
+
+  background-color: #f2682a;
+}
+
+header .menu-container div{
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 16px;
+}   
+
+header nav ul{
+  display: flex;
+  list-style: none;
+
+}
+
+header nav a{
+  padding: 0px 16px;
+  color: white;
+  display: block;
+  text-decoration: none;
+
+
+}
+header div img{
+margin-top: 10px;
+margin-bottom: 10px;
+  width: 75px;
+}
+
+
+
+
 
 .container {
   display: flex;
